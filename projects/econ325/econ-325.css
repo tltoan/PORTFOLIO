@@ -1,0 +1,395 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.landing {
+    width: 100vw; 
+    height: 100vh;
+    overflow: hidden
+}
+
+.img_0 {
+   max-width: 80%;
+   margin-top: 50px;
+   margin-left: 50px;
+}
+
+.blurry-eyes {
+    margin-bottom: -20px;
+    max-width: 60%;
+    height: auto;
+    width: 45%;
+}
+
+.title-container {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    justify-content: center;
+}
+
+.selections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    transition: transform 0.3s ease;
+}
+
+.selections li {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.landing-right-image {
+    position: absolute;
+    top: 40%;
+    right: -20%;
+}
+/* VIDEO */
+
+.embed-responsive-item {
+    border-radius: 15px;
+    margin-bottom: -20px;
+}
+
+.embed-responsive {
+    margin-top: 200px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.origin-text {
+    border-radius: 5px;
+    font-size: large;
+    border: 1px solid black;
+    max-width: 800px;
+}
+
+.origin-text p{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.video-tag {
+    margin-top: 35px;
+}
+
+.img-tag {
+padding-left: 15px;
+}
+
+.video-img {
+    max-width: 50%;
+    margin-top: -20px;
+    position: absolute;
+    right: -8%;
+    bottom: -850px;
+}
+
+.video-img img {
+    width: 80%;
+}
+
+.vinyl_rhapsody {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: 50%;
+    right: -10%;
+    bottom: -400px;
+}
+
+.vinyl_rhapsody img{
+    width: 35%;
+}
+.vinyl_rhapsody h2{
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blue_rhapsody {
+    transition: transform 0.5s ease-in-out; 
+    cursor: pointer;
+}
+
+
+.star-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: -750px;
+    right: 16%;
+}
+.star-container img {
+    max-width: 65%;
+    margin-bottom: -120px
+}
+
+.blue-star {
+    transition: transform 0.1s ease; 
+}
+
+/* AUDIO */
+
+.audio-container {
+    padding-top: 50px; 
+}
+
+.audio-bar {
+    right: 16%;
+    position: absolute;
+    bottom: -1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.audio {
+    width: 1000px; 
+    border-radius: 0px; 
+    background-color: rgb(16, 16, 16);
+}
+
+.audio_03_container {
+    position: absolute;
+    max-width: 70%;
+    bottom: -1500px;
+    right: 45%;
+}
+
+.audio_03_container h1{
+    max-width: 77%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.audio_03 {
+    width: 80%;
+    height: auto;
+}
+
+.red-circle {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: red;
+    position: absolute;
+    bottom: -1200px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.audio-text-box {
+    right: 2%;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -1400px;
+    width: 750px;
+    height: 350px;
+    border: 3px solid black;
+}
+
+.audio-text-box p{
+    margin: 5px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* TIMELINE */
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin: 50px 0;
+    padding: 20px;
+    right: 0;
+    bottom: -1600px;
+    border-top: 5px solid black;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute; 
+    top: -120%; 
+    transform: translateY(-50%); 
+}
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: #62C6F2;
+}
+
+.label {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+/* Adjusting the label placement based on the item */
+.timeline-item:nth-child(1) .label {
+    transform: translateY(-10px);
+}
+
+.timeline-item:nth-child(2) .label {
+    transform: translateY(-80px);
+}
+
+.timeline-item:nth-child(3) .label {
+    transform: translateY(-10px);
+}
+
+.timeline-item:nth-child(4) .label {
+    transform: translateY(-80px);
+}
+
+.timeline-item:nth-child(5) .label {
+    transform: translateY(-10px);
+}
+
+.timeline-item:nth-child(1) .dot {
+    top: -52%; /* Adjust only the first dot slightly to align */
+}
+
+
+/* MAGAZINE */
+
+.magazine-container h1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -1600px;
+    right: 40%;
+}
+
+.magazine {
+    background-color: aliceblue;
+    border: 1px dotted black;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: -700px;
+    transition: transform 0.3s ease;
+}
+
+.magazine img {
+    transition: transform 0.3s ease;
+    width: 40%;
+}
+
+.magazine img:hover {
+    transform: scale(1.05);
+}
+
+
+/* INFOGRAPHIC */
+.infographic-container {
+    background-image: url('/images/new-papepr.jpg'); 
+    background-repeat: no-repeat;
+}
+
+.infographic h1{
+    background-color: black;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0; 
+}
+
+.infographic {
+    background-color: whitesmoke;
+    bottom: -700px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;;
+}
+
+.infographic img {
+    width: 30%;
+}
+
+.infographic-img00 {
+    transition: transform 0.3s ease;
+}
+
+.infographic-img01, .infographic-img02 {
+    opacity: 80%;
+}
+
+.infographic img:first-child {
+    width: 30%;
+    height: 40%;
+}
+
+.infographic img:last-child {
+    width: 30%;
+    height: 40%;
+    margin-top: auto;
+}
+/* ANIMATION */
+
+.vinyl_rhapsody:hover .blue_rhapsody {
+    animation: spin 2s linear infinite;
+    transform: scale(1.2);
+}
+
+.red-circle:hover{
+    transform: scale(1.1);
+}
+
+.blue-star:hover {
+    transform: scale(1.2);
+}
+
+.selections li:hover{
+    transform: scale(1.2);
+    text-decoration: line-through;
+}
+
+.infographic-img00:hover {
+    transform: scale(1.2);
+}
+
+
+/* KEYFRAMES */
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

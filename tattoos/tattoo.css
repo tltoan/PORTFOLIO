@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 100vh;
+}
+
+.options a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    background-color: gray;
+    transition: ease-in-out 0.3s;
+    font-size: large;
+}
+
+.options a:hover {
+    background-color: black;
+    color: rgb(255, 0, 0);   
+    text-decoration: line-through;
+}
+
+.portfolio-title h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.showcase00 {
+    margin-top: 50px;
+}
+
+.tattoo-00 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tattoo-01 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.tattoo02 img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.tats {
+    padding: 0;
+}

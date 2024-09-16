@@ -1,0 +1,114 @@
+body {
+    background-image: url("/about_me/images/aboutme-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+.container h1 {
+    font-size: 100px;
+}
+
+.experiences {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blah {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.num_03{
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+}
+
+.flwr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profile img {
+    filter: grayscale(100%);
+    width: 400px;
+    height: auto;
+    transition: ease-in-out 0.3s;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+    filter: grayscale(10%);
+}
+
+.approach-inspo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inspiration p {
+    margin-bottom: 0px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.random p {
+    margin-bottom: 0px;
+}
+.astr {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.astr img {
+    opacity: 80%;
+    width: 40%;
+    height: auto;
+    transition: ease-in-out 0.3s;
+}
+
+.astr img:hover {
+    animation: rotate .1s linear infinite;
+    transform: scale(1.5);
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: white;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

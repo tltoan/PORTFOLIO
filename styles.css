@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: -15px;
+    color: black;
+}
+
+.resume a {
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease,  text-decoration 0.3s ease;
+}
+
+.resume a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: #62C6F2;
+}
+
+.resume-btn {
+    padding:5px;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.page-title {
+    max-width: 450px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.page-title h3 {
+    display: flex;
+}
+
+.page-title ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.page-title ul li a img {
+    padding-bottom: 5px;
+    margin-right: 15px;
+    width: 20px; 
+    height: auto;
+    transition: transform 0.3s ease
+}
+
+.page-title ul li a img:hover {
+    transform: scale(1.2);
+}
+
+.navs {
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #62C6F2;
+}
+
+.selections {
+    margin-bottom: 5px;
+    transition: transform 0.3s ease,  text-decoration 0.3s ease;; 
+    cursor: pointer;
+    transform-origin: center;
+}
+
+.selections a {
+    color: black;
+    transition: transform 0.3s ease,  text-decoration 0.3s ease;;
+}
+
+.left-image-container .saigon {
+    width: 100%;
+    max-width: 900%; 
+    height: auto; 
+}
+
+.left-image-container .star{
+    max-width: 35%; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 180px; 
+    left: 70%; 
+    transform: translateX(9); 
+    transform: rotate(45deg)
+}
+
+.right-image-container img {
+    padding-right: 0px;
+    padding-top: 25px;
+    width: 95%;
+    max-width: 100%; 
+    height: auto; 
+}
+
+.introductions {
+    padding-top: 25px;
+    width: 100%;
+    max-height: 100px;
+}
+
+.introductions img.signature {
+    display: block;
+    max-width: 90%; 
+  }
+
+  /* Hover:EFFECTS */
+
+  ul li.selections a:hover {
+    font-weight:600;
+    color:  #62C6F2;
+    text-decoration: underline;
+  }
+
+
+  /* ANIMATIONS */
+
+  .left-image-container .star:hover {
+    animation: rotate .5s linear infinite;
+  }
+
+
+ /* KEYFRAMES */ 
+
+ @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
