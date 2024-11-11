@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "urbanist";
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.landing {
+  height: 100vh;
+  width: 100%;
+}
+
+.container-fluid {
+  background-image: url(images/busyciti.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-fluid2 {
+  width: 100%;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+  background-position: center;
+}
+.header h1 {
+  font-size: 7em;
+  color: #fcf3e3;
+  font-family: "urbanist";
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  color: #82a69f;
+  background-color: #1f2b41;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.navs {
+  height: 50vh;
+  width: 100%;
+}
+
+.color {
+  color: #d93d55;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav ul li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav ul li:hover {
+  color: #d93d55;
+}
+
+.credit h2 {
+  text-align: center;
+}
+
+.left-empathy {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+.empathy {
+  background-color: #1f2b41;
+  color: #1f2b41;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+.empathy-image {
+  width: 700px;
+  height: 100px;
+}
+
+.empathy-image img {
+  cursor: pointer;
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  opacity: 80%;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transformations and opacity */
+}
+
+.empathy-image img:hover {
+  transform: scale(1.05); /* Scale the image on hover */
+  opacity: 100%; /* Fully opaque on hover */
+}
+
+.right-empathy p {
+  font-size: larger;
+  color: #fcf3e3;
+}
+
+.empathy-data {
+  width: 100%;
+  height: 10vh;
+}
+
+.custom-background {
+  background-color: #1f2b41; /* Replace with your desired background color */
+  padding: 20px; /* Optional: Add padding to the row */
+}
+
+.interviews {
+  padding-right: 60px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fcf3e3;
+  width: 100%;
+}
+
+.interviews h2 {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.resume a {
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.resume a:hover {
+  transform: scale(1.15);
+}
+
+.conclusion {
+  background-color: #1f2b41;
+  color: #fcf3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conclusion p {
+  border: 1px solid #d93d55;
+  background-color: #fcf3e3;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #1f2b41;
+}
+
+.intro {
+  font-size: 0.9em;
+}

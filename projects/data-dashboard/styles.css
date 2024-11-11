@@ -1,0 +1,350 @@
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: url("fonts/NYT-cheltenham/cheltenham-normal-400.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: url("fonts/NYT-cheltenham/cheltenham-normal-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nyt-cheltenham";
+  src: url("fonts/NYT-cheltenham/cheltenham-normal-300.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+h4 {
+  margin: 0px;
+}
+body {
+  font-family: "nyt-cheltenham", sans-serif;
+  font-weight: 400; /* Normal weight */
+}
+
+h2 {
+  font-weight: 700; /* Bold weight */
+}
+
+p {
+  font-weight: 300; /* Light weight */
+}
+
+figcaption {
+  font-weight: 300; /* Light weight */
+}
+
+/* Beginning of Code */
+
+.NYT-header {
+  font-size: 14px;
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(186, 180, 180);
+}
+
+.nytlogo {
+  display: flex;
+  padding-right: 16%;
+  align-items: center;
+  justify-content: center;
+}
+.nytlogo img {
+  width: 20%;
+  height: auto;
+}
+.left-nav {
+  display: flex;
+  gap: 7px;
+}
+
+.left-nav img {
+  width: auto;
+  height: 15px;
+}
+.sections {
+  border: 1px solid rgb(186, 180, 180);
+  border-radius: 2px;
+  gap: 5px;
+  align-items: center;
+  display: flex;
+}
+
+.sections h4 {
+  margin: 5px;
+}
+
+.home {
+  align-items: center;
+  display: flex;
+}
+
+.home img {
+  width: auto;
+  height: 18px;
+}
+
+.search {
+  gap: 5px;
+  align-items: center;
+  display: flex;
+}
+
+.search img {
+  width: auto;
+  height: 20px;
+}
+
+.setting {
+  width: auto;
+  height: 15px;
+}
+
+/* Stories */
+.storiesboard {
+  margin-top: 10px;
+  display: flex;
+}
+
+.story {
+  display: flex;
+}
+.story img {
+  width: auto;
+  height: 50px;
+}
+.subnavs {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 17px;
+  border-bottom: 1px solid rgb(186, 180, 180);
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-left: 10px;
+  scrollbar-width: none;
+}
+
+.subnavs::-webkit-scrollbar {
+  display: none;
+}
+
+.subnavs h5 {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.subnavs h5:hover {
+  color: rgb(93, 91, 91);
+  text-decoration: underline;
+}
+
+.subnavs h5:hover {
+  color: rgb(93, 91, 91);
+  text-decoration: underline;
+}
+
+.dates {
+  cursor: pointer;
+  display: flex;
+  color: white;
+}
+
+.divider {
+  height: 25px;
+  width: 1px;
+  background-color: rgb(186, 180, 180);
+}
+.dates .red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  background-color: #f3544c;
+  width: 25px;
+}
+
+.dates .blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  background-color: #2c8cdc;
+  width: 25px;
+}
+
+.updates {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.updates h6 {
+  color: #d4051d;
+}
+
+/* Article */
+
+.articlecontainer {
+  width: 100%;
+  margin-top: 25px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.article h2 {
+  width: 600px;
+  color: rgb(18, 18, 18);
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+
+.article p {
+  font-family: "nyt-cheltenham";
+  width: 600px;
+  color: rgb(54, 54, 54);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lineacross {
+  width: 600px;
+  height: 1px;
+  background-color: rgb(186, 180, 180);
+  margin-top: 20px;
+}
+
+.articleimg {
+  width: 100%;
+}
+.article img {
+  width: 800px;
+  height: auto;
+  margin-top: 20px;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Credits */
+
+.credit {
+  gap: 5px;
+  font-family: "nyt-cheltenham", sans-serif;
+  width: 600px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.credit h4 {
+  font-size: 16px;
+}
+
+.credit p {
+  margin: 0px;
+  font-weight: 100;
+  font-family: "nyt-cheltenham", sans-serif;
+}
+
+.credit img {
+  margin-top: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.author {
+  flex-direction: column;
+  display: flex;
+  justify-content: start;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 430px) and (max-height: 932px) {
+  .nytlogo img {
+    width: 250px;
+    padding-right: 0px;
+    height: auto;
+  }
+  .NYT-header {
+    display: flex;
+    justify-content: space-around;
+    width: 115%;
+    padding-right: 0;
+    padding: 0px;
+  }
+  .search {
+    display: none;
+  }
+  .home {
+    display: none;
+  }
+
+  .subnavs {
+    width: 113%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .lineacross {
+    width: 100%;
+    display: none;
+    margin: 0 auto;
+  }
+  .article,
+  .article p,
+  .article h2 {
+    width: 100%;
+  }
+  .article h2 {
+    margin-top: 0px;
+    font-size: 30px;
+  }
+
+  .article p,
+  .article h2 {
+    padding-left: 15%;
+  }
+  .articleimg figure img {
+    padding-left: 20px;
+    width: 550px;
+  }
+  .credit {
+    padding-left: 15px;
+    width: 430px;
+  }
+}
+
+@media (min-width: 768px) {
+  .subnavs {
+    justify-content: center;
+  }
+}

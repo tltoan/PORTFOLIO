@@ -1,138 +1,328 @@
 li {
-    display: inline;
-    list-style-type: none;
-    padding: 20px;
-    overflow: hidden;
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
 }
 
-.showcase00{
-    margin-bottom: 50px;
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.header{
-    min-height: 500px;
-    justify-content: center;
+.container-fluid {
+  overflow-x: hidden;
 }
-.title h1{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
+.project {
+  font-size: 5rem;
+}
+.showcase00 {
+  margin-bottom: 50px;
+}
+
+.header {
+  min-height: 500px;
+}
+.title h1 {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 .JS {
-    background-color: #e9cb04; 
-    color: #ffffff; 
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #e9cb04;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .PY {
-    background-color: #3572A5;
-    color: #fff;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #3572a5;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .CSS {
-    background-color: #264de4; 
-    color: #fff; 
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #264de4;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .HTML {
-    background-color: #e34c26;
-    color: #fff; 
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #e34c26;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.JQ {
+  background-color: #26e3c0;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .BOOT {
-    background-color: #226a20;
-    color: #fff; 
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #226a20;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .UNC {
-    background-color: #7BAFD4;
-    color: #ffffff; 
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
+  background-color: #7bafd4;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.WEB {
+  background-color: #11354f;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.FRAME {
+  background-color: #70cf72;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.WP {
+  background-color: #9144cc;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.Js {
+  background-color: #ba87ca;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1 !important;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+
+.filter li {
+  height: min-content;
+}
+
+.filter li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .container {
-    width: 100%; 
-    max-width: 100%; 
-    overflow: hidden;
-    transition: transform 0.3s ease; 
-    cursor: pointer;
-    margin-bottom: 10px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
-.container img{
-    width: 90%;
-    max-width: 100%; 
-    height: auto;  
+.container img {
+  width: 90%;
+  max-width: 100%;
+  height: auto;
 }
 .container h3 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.container:hover{
-    transform: scale(1.1);
+.container:hover {
+  transform: scale(1.1);
 }
-
 
 .right-showcase {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .left-showcase {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card-img-top {
-    transition: transform 0.3s ease;
+  border-radius: 1rem !important;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
 }
 
 .card-img-top:hover {
-    transform:scale(1.01)
+  transform: scale(1.01);
 }
-
+.card-title {
+  display: flex;
+  justify-content: center;
+}
 /* BUTTON */
 
 .btn {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 /* CARDS */
 
-.cards {
-    max-width: 100%;
+.card {
+  border-radius: 1rem !important;
+  border: 0.25px solid black !important;
+  height: fit-content;
 }
- .card img {
-    height: 250px;
- }
 
- /* BACK */
+.cards {
+  border-radius: 15%;
+  max-width: 100%;
+}
+.card img {
+  border: 0.75px solid black;
+  width: 100%; /* Ensure the image takes the full width of the container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 15%; /* Match the border radius of the container */
+}
 
- .back {
+.title-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* BACK */
+
+.back {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.title-holder {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.data ul li {
+  font-weight: bold;
+  border: black 0.25px solid;
+  width: 70px;
+  height: min-content;
+  width: min-content;
+  font-size: 8px;
+  text-align: center;
+}
+
+.econ-data ul {
+  margin: 0px;
+}
+
+@media (max-width: 430px) {
+  .filter {
     display: flex;
-    justify-content: flex-end;
-    padding: 20px;
- }
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+  }
+  .filter li {
+    width: fit-content;
+  }
 
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .card-img-top {
+    height: 200px !important;
+  }
+  .medea img {
+    z-index: 0;
+    align-content: center;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .title h1 {
+    padding: 0px;
+  }
+  .rightimage {
+    display: none;
+  }
+  .circe {
+    display: none;
+  }
+}
+
+/* Circe and Medea */
+
+.leftimage {
+  z-index: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.medea img {
+  z-index: 0;
+  width: 200%;
+  height: auto;
+  object-fit: cover;
+}
+
+.rightimage {
+  z-index: -1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  right: 20%;
+}
+
+.circe img {
+  z-index: 0;
+  width: 200%;
+  transform: scaleX(-1);
+  height: auto;
+  object-fit: cover;
+}

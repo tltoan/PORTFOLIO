@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header class="title-container"> 
+        <img class="title" src="images/title.png" alt="Rock Paper Scissors">
+    </header>
+    <div class="result">
+        <p class="result-text"></p>
+    </div>
+    <main class="game">
+        <div class="profiles">
+            <div class="player">
+                <img class="player-profile" src="images/player.png" alt="Player Profile">
+                <div class="choice-pictured">
+                    <div class="player-choice-picture"> 
+                        <img src="images/re.scissorSelected.png" id="player-choice-scissors" alt="play-bubbled-picture">
+                        <img src="images/re.rockSelected.png" id="player-choice-rock" alt="play-bubble-rock">
+                        <img src="images/re.paperSelected.png" id="player-choice-paper" alt="play-choice-paper">
+                    </div>
+                </div>
+            </div>
+            <div class="scoreboard-container"> 
+                <img class="score-board" src="images/scoreboard.png" alt="ScoreBoard">
+                <div class="score round-score-container">
+                    <div class="round-score">0</div>
+                </div>
+                <div class="score player-score-container">
+                    <div class="player-score">0</div>
+                </div>
+                <div class="score robot-score-container">
+                    <div class="robot-score">0</div>
+                </div>
+            </div>
+            <div class="machine">
+                <img class="robot-profile" src="images/robot.png" alt="Robot">
+                <div class="choice-pictured">
+                    <div class="robot-choice-picture">
+                        <img src="images/re.rockRobot.png" id="robot-choice-rock" alt="robot-bubbled-rock">
+                        <img src="images/re.scissorRobot.png" id="robot-choice-scissors" alt="robot-bubbled-scissors">
+                        <img src="images/re.paperRobot.png" id="robot-choice-paper" alt="robot-bubbled-paper">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="computer-choice-container">
+                <div id="computer-choice"></div>
+            </div>
+            <div class="result-message-container">
+                <div id="result-message"></div>
+            </div>
+            <div class="human-choice-container">
+                <div id="human-choice"></div>
+            </div>
+        </div>
+        <div>
+            <p class="selection-text">WHAT IS YOUR PICK?</p>
+        </div>
+        <div class="selections">
+            <button class="choice" data-choice="rock">
+                <img src="images/rock.png" alt="Rock">
+            </button>
+            <button class="choice" data-choice="paper">
+                <img src="images/paper.png" alt="Paper">
+            </button>
+            <button class="choice" data-choice="scissors">
+                <img src="images/scissors.png" alt="Scissors">
+            </button>
+        </div>
+    </main>
+    <script src="rockpaperscissorJS.js"></script>
+</body>
+</html>

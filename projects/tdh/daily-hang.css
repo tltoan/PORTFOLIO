@@ -1,0 +1,343 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%; 
+    background-color: antiquewhite;
+}
+
+.header {
+    background-color: black;
+    min-height: 75px;
+    border: 2px solid #D3CDD0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.dates {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.date-box {
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    font-size: 25px;
+    border: 2px solid #D3CDD0;
+    height: 35px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.mailing-box {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    align-items: center;
+}
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    font-size: 20px;
+    height: 35px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px
+}
+
+.hang-man {
+    min-height: 300px;
+}
+
+.bottom-bar {
+    width: 155px;
+    height: 15px;
+    background: #000;
+    position: absolute;
+    bottom: 0px;
+    left: 27%;
+}
+
+.verticle-bar {
+    width: 10px;
+    height: 255px;
+    bottom: 0;
+    left: 35% ;
+    background: #000;
+    position: absolute;
+}
+
+.horizontal-bar {
+    width: 280px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    left: 35%;
+    top: 12%;
+}
+
+.across-bar {
+    background: #000;
+    width: 140px;
+    height: 9px;
+    border-radius: 10px ;
+    transform: rotate(-30.614deg);
+    left: 34%;
+    top: 23%;
+    position: absolute;
+}
+
+.noose {
+    position: absolute;
+    background: #000;
+    width: 7px;
+    height: 75px;
+    background: #000;
+    top: 12%;
+    right: 40%;
+}
+
+.text-boxes {
+    padding-top: 30px;
+}
+
+
+#line-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+}
+#letter-container {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.letter {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.line{
+    border-radius: 5px;
+    width: 75px;
+    height: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+.alphabet-holder {
+    padding-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input-container {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px black;
+}
+
+
+li {
+    text-align: center;
+    align-content: center;
+    list-style: none;
+    display: inline;
+    width: 45px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #D3CDD0;
+    color: white;
+}
+
+.key {
+    transition: transform 0.3s ease-in-out;
+}
+
+.key:hover {
+    background-color: rgb(111, 111, 111);
+    transform: scale(1.2);
+}
+
+#Backspace {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#Enter {
+    width: 75px;
+    height: 50px;
+    border-radius: 5px;
+} 
+
+
+.letter.visible {
+    visibility: visible;
+    animation: pop-in 0.1s ease-out forwards;
+}
+/* MODAL */
+.lost-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .win-modal {
+    display: none;
+    position: fixed;z-index: 1; 
+    left: 33%;
+    top: 25%;
+    width: 500px;
+    height: 75px;
+    overflow: none;
+  }
+
+  .win-modal-content {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* KEYFRAMES */
+
+  @keyframes pop-in {
+    0% { transform: scale(0); opacity: 0; }
+    80% { transform: scale(1.1); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+
+/* HANGMAN */
+
+.hang-man-body-parts {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+#hang-man-head {
+    opacity: 0;
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the div a circle */
+    background-color: black; /* Adjust as needed */
+    margin: 0 auto; /* Centers the div */
+}
+#hang-man-body-upper {
+    opacity: 0;
+    width: 65px; 
+    height: 110px; 
+    border-radius: 30%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color: black; 
+    margin: 0 auto; 
+    left: -12px;
+    top:-200px;
+    position: relative; 
+}
+#hang-man-left-arm {
+    opacity: 0;
+    width: 20px; 
+    height: 90px; 
+    background-color: black; 
+    border-radius: 30%;
+    border-top-right-radius: 50%;
+    margin: 0 auto; 
+    left: -45px;
+    top:-5px;
+    position: relative; 
+}
+
+#hang-man-right-arm {
+    opacity: 0;
+    width: 20px; 
+    height: 90px; 
+    background-color: black; 
+    border-radius: 30%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin: 0 auto; 
+    left: 20px;
+    top:-85px;
+    position: relative; 
+}
+
+#hang-man-left-leg {
+    opacity: 0;
+    width: 20px; 
+    height: 120px; 
+    background-color: black; 
+    border-radius: 30%;
+    border-top-right-radius: 50%;
+    margin: 0 auto; 
+    left: -25px;
+    top:-240px;
+    position: relative; 
+}
+#hang-man-right-leg {
+    opacity: 0;
+    width: 20px; 
+    height: 120px; 
+    background-color: black; 
+    border-radius: 30%;
+    border-top-right-radius: 50%;
+    margin: 0 auto; 
+    left:0px;
+    top:-340px;
+    position: relative; 
+}

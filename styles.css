@@ -12,10 +12,15 @@ li {
     justify-content: center;
 }
 
+.nav-items {
+    display: flex;
+    align-items: center; /* Vertically aligns the items in the middle */
+}
 .resume {
     display: flex;
     align-items: center;
     font-size: 20px;
+    padding-bottom: 15px;
     padding-left: -15px;
     color: black;
 }
@@ -51,7 +56,6 @@ li {
 .page-title ul {
     display: flex;
     list-style-type: none;
-    padding-left: 20px;
 }
 
 .page-title ul li a img {
@@ -145,5 +149,22 @@ li {
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 430px) {
+    .right-image-container img {
+        width: 100%;
+    }
+    .col-md-7 {
+        padding-right: 0px !important;
+    }
+    .col-md-5 {
+        padding-right: 0px !important;
+    }
+    html body {
+        overflow-x: hidden;
     }
 }

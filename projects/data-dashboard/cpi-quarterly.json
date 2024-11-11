@@ -1,0 +1,598 @@
+{
+  "data": [
+    {
+      "year": 2000,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 169.3
+    },
+    {
+      "year": 2000,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 170.9
+    },
+    {
+      "year": 2000,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 172.7
+    },
+    {
+      "year": 2000,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 173.9
+    },
+    {
+      "year": 2001,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 175.6
+    },
+    {
+      "year": 2001,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 176.4
+    },
+    {
+      "year": 2001,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 177.4
+    },
+    {
+      "year": 2001,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 177.6
+    },
+    {
+      "year": 2002,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 177.7
+    },
+    {
+      "year": 2002,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 179.3
+    },
+    {
+      "year": 2002,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 180.0
+    },
+    {
+      "year": 2002,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 181.2
+    },
+    {
+      "year": 2003,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 182.6
+    },
+    {
+      "year": 2003,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 183.2
+    },
+    {
+      "year": 2003,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 183.7
+    },
+    {
+      "year": 2003,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 184.9
+    },
+    {
+      "year": 2004,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 186.3
+    },
+    {
+      "year": 2004,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 187.4
+    },
+    {
+      "year": 2004,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 189.1
+    },
+    {
+      "year": 2004,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 190.8
+    },
+    {
+      "year": 2005,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 191.6
+    },
+    {
+      "year": 2005,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 193.7
+    },
+    {
+      "year": 2005,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 194.9
+    },
+    {
+      "year": 2005,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 199.1
+    },
+    {
+      "year": 2006,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 199.3
+    },
+    {
+      "year": 2006,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 200.7
+    },
+    {
+      "year": 2006,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 202.9
+    },
+    {
+      "year": 2006,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 201.9
+    },
+    {
+      "year": 2007,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 203.437
+    },
+    {
+      "year": 2007,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 205.904
+    },
+    {
+      "year": 2007,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 207.603
+    },
+    {
+      "year": 2007,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 209.19
+    },
+    {
+      "year": 2008,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 212.174
+    },
+    {
+      "year": 2008,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 213.942
+    },
+    {
+      "year": 2008,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 219.016
+    },
+    {
+      "year": 2008,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 216.995
+    },
+    {
+      "year": 2009,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 211.933
+    },
+    {
+      "year": 2009,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 212.709
+    },
+    {
+      "year": 2009,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 214.726
+    },
+    {
+      "year": 2009,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 216.509
+    },
+    {
+      "year": 2010,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 217.488
+    },
+    {
+      "year": 2010,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 217.403
+    },
+    {
+      "year": 2010,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 217.605
+    },
+    {
+      "year": 2010,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 219.035
+    },
+    {
+      "year": 2011,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 221.187
+    },
+    {
+      "year": 2011,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 224.093
+    },
+    {
+      "year": 2011,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 225.395
+    },
+    {
+      "year": 2011,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 226.75
+    },
+    {
+      "year": 2012,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 227.842
+    },
+    {
+      "year": 2012,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 229.187
+    },
+    {
+      "year": 2012,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 228.59
+    },
+    {
+      "year": 2012,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 231.638
+    },
+    {
+      "year": 2013,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 231.679
+    },
+    {
+      "year": 2013,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 231.797
+    },
+    {
+      "year": 2013,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 232.9
+    },
+    {
+      "year": 2013,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 233.669
+    },
+    {
+      "year": 2014,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 235.288
+    },
+    {
+      "year": 2014,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 236.468
+    },
+    {
+      "year": 2014,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 237.498
+    },
+    {
+      "year": 2014,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 237.43
+    },
+    {
+      "year": 2015,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 234.747
+    },
+    {
+      "year": 2015,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 236.222
+    },
+    {
+      "year": 2015,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 238.034
+    },
+    {
+      "year": 2015,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 237.733
+    },
+    {
+      "year": 2016,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 237.652
+    },
+    {
+      "year": 2016,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 238.992
+    },
+    {
+      "year": 2016,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 240.101
+    },
+    {
+      "year": 2016,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 241.741
+    },
+    {
+      "year": 2017,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 243.618
+    },
+    {
+      "year": 2017,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 244.193
+    },
+    {
+      "year": 2017,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 244.243
+    },
+    {
+      "year": 2017,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 246.626
+    },
+    {
+      "year": 2018,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 248.859
+    },
+    {
+      "year": 2018,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 250.227
+    },
+    {
+      "year": 2018,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 251.214
+    },
+    {
+      "year": 2018,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 252.772
+    },
+    {
+      "year": 2019,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 252.561
+    },
+    {
+      "year": 2019,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 255.233
+    },
+    {
+      "year": 2019,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 255.802
+    },
+    {
+      "year": 2019,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 257.155
+    },
+    {
+      "year": 2020,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 258.906
+    },
+    {
+      "year": 2020,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 256.126
+    },
+    {
+      "year": 2020,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 258.408
+    },
+    {
+      "year": 2020,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 260.249
+    },
+    {
+      "year": 2021,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 262.518
+    },
+    {
+      "year": 2021,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 266.752
+    },
+    {
+      "year": 2021,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 271.994
+    },
+    {
+      "year": 2021,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 276.434
+    },
+    {
+      "year": 2022,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 282.39
+    },
+    {
+      "year": 2022,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 288.764
+    },
+    {
+      "year": 2022,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 294.977
+    },
+    {
+      "year": 2022,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 297.863
+    },
+    {
+      "year": 2023,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 300.356
+    },
+    {
+      "year": 2023,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 303.032
+    },
+    {
+      "year": 2023,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 304.628
+    },
+    {
+      "year": 2023,
+      "quarter": 4,
+      "month": 10,
+      "cpi": 307.531
+    },
+    {
+      "year": 2024,
+      "quarter": 1,
+      "month": 1,
+      "cpi": 309.685
+    },
+    {
+      "year": 2024,
+      "quarter": 2,
+      "month": 4,
+      "cpi": 313.207
+    },
+    {
+      "year": 2024,
+      "quarter": 3,
+      "month": 7,
+      "cpi": 313.534
+    }
+  ]
+}

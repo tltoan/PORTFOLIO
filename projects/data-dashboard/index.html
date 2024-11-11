@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>NYT Data</title>
+  </head>
+  <body>
+    <div class="NYT-header">
+      <div class="left-nav">
+        <div class="sections">
+          <img src="images/NYT-dashboard.png" />
+          <h4>Sections</h4>
+        </div>
+        <div class="home">
+          <img src="images/The-New-York-Times-Emblem.png" />
+          <h4>Home</h4>
+        </div>
+        <div class="search">
+          <img src="images/NYT-searchicon.png" />
+          <h4>Search</h4>
+        </div>
+      </div>
+      <div class="nytlogo">
+        <img src="images/New-York-Times-logo.png" />
+      </div>
+      <div>
+        <img src="images/NYT-settings.png" class="setting" />
+      </div>
+    </div>
+    <div class="subnavs">
+      <div class="dates">
+        <h5 class="blue">2</h5>
+        <h5 class="red">0</h5>
+        <h5 class="blue">2</h5>
+        <h5 class="red">4</h5>
+      </div>
+      <div class="divider"></div>
+      <div class="updates">
+        <h6>LIVE</h6>
+        <h5>Updates</h5>
+      </div>
+      <h5>Poll Tracker</h5>
+      <h5>Swing State Ratings</h5>
+      <h5>Key Issues</h5>
+      <h5>Early Voter Tracker</h5>
+      <h5>Electoral College Path</h5>
+      <h5>Senate Races</h5>
+      <h5>House Races</h5>
+    </div>
+    <div class="articlecontainer">
+      <div class="article">
+        <h2>
+          Beneath the Shell: The Inflation Crisis for Minimum Wage Workers
+        </h2>
+        <p>
+          As egg prices climb, minimum-wage earners find themselves stretched
+          even thinner. Rising costs on everyday essentials collide with
+          stagnant wages, creating a financial squeeze that’s tougher to crack
+          than ever before.
+        </p>
+        <div class="lineacross"></div>
+        <div class="commentsection"></div>
+        <div class="articleimg">
+          <figure>
+            <img src="images/egg.webp" alt="Egg Image" />
+            <figcaption>
+              Photo: Victor Protasio / Food Styling by Maggie Ruggiero / Prop
+              Styling by Christine Keely
+            </figcaption>
+          </figure>
+        </div>
+        <div class="credit">
+          <img src="images/profile.jpeg" />
+          <div class="author">
+            <h4 style="font-size: 15px">By Antony Tran</h4>
+            <p style="font-size: 15px">Reporting from Chapel Hill</p>
+            <p style="font-size: 12px">Nov. 4, 2024, 3:50 p.m. ET</p>
+          </div>
+        </div>
+        <p style="font-size: 14px; text-decoration: underline">
+          Note: This "article" is not affiliated with the NYT, and was made for
+          class
+        </p>
+        <p>
+          Over the past two decades, inflation has transformed the economic
+          environment for minimum-wage workers, making basic goods increasingly
+          difficult to afford. Imagine this: in 2000, one hour of work at
+          minimum wage could buy a gallon of milk, a loaf of bread, and a dozen
+          eggs. But today, these simple staples often slip out of reach for
+          America’s lowest earners.
+        </p>
+        <canvas id="cpiChart" width="1000" height="500"></canvas>
+        <p>
+          The Consumer Price Index (CPI), which monitors fluctuations in the
+          prices of essential products and services, reveals a concerning
+          narrative. From the first quarter of 2000, when the CPI was 169.3, to
+          the third quarter of 2024, when it jumped to 313.5, living expenses
+          have nearly doubled. These numbers are not just statistics—they
+          represent the relentless rise in costs for fundamental needs: food,
+          housing, utilities, and transportation. Essentials once taken for
+          granted, like eggs, have become symbols of inflation’s crushing impact
+          on daily life. For minimum-wage employees, every rise in the CPI is a
+          stark reminder that while prices escalate, their earnings remain
+          stagnant.
+        </p>
+        <canvas id="mwChart" width="1000" height="500"></canvas>
+        <p>
+          The federal minimum wage hasn’t budged since 2009, holding steady at
+          $7.25 per hour. This marks the longest period of wage stagnation since
+          the minimum wage was first established in 1938. During these fifteen
+          years of inertia, the cost of living has continued to climb, forcing
+          minimum-wage earners to make hard choices—stretching each dollar,
+          rationing groceries, and even skipping meals. Although some states
+          have raised their minimum wages, countless workers in states adhering
+          to the federal rate struggle to afford necessities, trapped in an
+          ever-widening divide between income and costs.
+        </p>
+        <canvas id="eggChart" width="1000" height="500"></canvas>
+        <p>
+          An examination of egg prices from 2004 to 2024 reveals a troubling
+          pattern that underscores this challenge. For much of the early 2000s,
+          egg prices remained steady, a modest yet essential part of the average
+          worker’s budget. However, beginning in 2022, prices surged, driven by
+          inflation, supply chain challenges, and rising production expenses,
+          with eggs peaking at more than $4.00 per dozen. Basic needs such as
+          bread, milk, and rent have followed a similar trend, intensifying the
+          financial strain on low-income workers. Despite rising daily expenses,
+          minimum wages have largely failed to keep pace, leading to diminished
+          purchasing power. For these Americans, each paycheck is shrinking,
+          consumed by essential needs that now take up a larger portion of their
+          limited income.
+        </p>
+        <canvas id="stateWages" width="800" height="600"></canvas>
+        <p>
+          Across the nation, minimum wage regulations vary significantly,
+          creating a fragmented landscape where location shapes economic
+          stability. Some states have increased their minimum wages above the
+          federal standard, providing a slight buffer against inflation. Yet
+          many states still lack minimum wage regulations, relying solely on the
+          federal rate and leaving workers with minimal safeguards. The
+          disparity is stark: in states with elevated minimum wages, workers
+          have a modest shield against rising costs, while those in states
+          adhering to the federal minimum face an increasingly widening gap
+          between income and the cost of living. This divided wage environment
+          underscores the need for a cohesive, fair approach to wage standards
+          that considers the actual expenses of contemporary living.
+        </p>
+        <p>
+          As of November 2024, five U.S. states—Alabama, Louisiana, Mississippi,
+          South Carolina, and Tennessee—still lack state-mandated minimum wage
+          laws, subjecting their workers to the federal rate. In Georgia and
+          Wyoming, the minimum wage is even lower at $5.15 an hour, although the
+          federal rate applies to most workers. For employees in these states,
+          the lack of state-level protections exacerbates financial insecurity,
+          forcing them to contend with rising living expenses without any
+          additional safety net.
+        </p>
+        <canvas id="buyingPower" width="800" height="600"></canvas>
+        <p>
+          The decline in purchasing power for minimum-wage earners is evident.
+          In 2000, an hour at the minimum wage of $5.15 could buy almost six
+          dozen eggs. But by 2024, with the wage stagnant at $7.25 and egg
+          prices at all-time highs, that same hour’s labor buys less than two
+          dozen eggs. This erosion of purchasing power captures the financial
+          reality for America’s low-wage earners, who must grapple daily with
+          the high costs of basics that now consume their paychecks. Without
+          meaningful wage adjustments, the widening gap between the cost of
+          living and minimum-wage earnings will continue to deepen, leaving
+          millions further behind in an economy rapidly outpacing their ability
+          to keep up.
+        </p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-geo@3"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

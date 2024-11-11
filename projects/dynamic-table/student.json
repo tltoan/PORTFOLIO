@@ -1,0 +1,94 @@
+{
+  "students": [
+    {
+      "profile": "https://picsum.photos/seed/picsum1/200/300",
+      "first_name": "Keira",
+      "last_name": "Singh",
+      "role": "Student",
+      "birth_day": "2004-10-20",
+      "username": "k.singh",
+      "email": "ksingh@gmail.com",
+      "grade": 90
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum2/200/300",
+      "first_name": "Liam",
+      "last_name": "Johnson",
+      "role": "Student",
+      "birth_day": "2003-05-15",
+      "username": "l.johnson",
+      "email": "ljohnson@gmail.com",
+      "grade": 85
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum3/200/300",
+      "first_name": "Emma",
+      "last_name": "Williams",
+      "role": "Student",
+      "birth_day": "2004-08-22",
+      "username": "e.williams",
+      "email": "ewilliams@gmail.com",
+      "grade": 92
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum4/200/300",
+      "first_name": "Noah",
+      "last_name": "Brown",
+      "role": "Student",
+      "birth_day": "2002-11-30",
+      "username": "n.brown",
+      "email": "nbrown@gmail.com",
+      "grade": 88
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum5/200/300",
+      "first_name": "Olivia",
+      "last_name": "Jones",
+      "role": "Student",
+      "birth_day": "2003-02-14",
+      "username": "o.jones",
+      "email": "ojones@gmail.com",
+      "grade": 95
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum6/200/300",
+      "first_name": "William",
+      "last_name": "Garcia",
+      "role": "Student",
+      "birth_day": "2004-07-19",
+      "username": "w.garcia",
+      "email": "wgarcia@gmail.com",
+      "grade": 87
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum7/200/300",
+      "first_name": "Sophia",
+      "last_name": "Martinez",
+      "role": "Student",
+      "birth_day": "2003-12-05",
+      "username": "s.martinez",
+      "email": "smartinez@gmail.com",
+      "grade": 93
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum8/200/300",
+      "first_name": "James",
+      "last_name": "Davis",
+      "role": "Student",
+      "birth_day": "2002-09-10",
+      "username": "j.davis",
+      "email": "jdavis@gmail.com",
+      "grade": 89
+    },
+    {
+      "profile": "https://picsum.photos/seed/picsum9/200/300",
+      "first_name": "Isabella",
+      "last_name": "Rodriguez",
+      "role": "Student",
+      "birth_day": "2004-03-25",
+      "username": "i.rodriguez",
+      "email": "irodriguez@gmail.com",
+      "grade": 91
+    }
+  ]
+}

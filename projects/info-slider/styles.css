@@ -1,0 +1,468 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slides Content */
+@media only screen and (min-device-width: 430px) and (max-device-width: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  html {
+    height: 430px;
+  }
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+  .homeSlide {
+    background-image: url("images/tennis\ court.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 932px;
+    height: 430px;
+    overflow: hidden;
+    display: flex;
+  }
+  .homeSlide h4 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 25%;
+  }
+  .homeSlide h1 {
+    margin-left: 10px;
+    color: white;
+    margin-top: 0px;
+    font-size: 9rem;
+  }
+
+  .secondSlide {
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .secondSlide img {
+    border-radius: 20px;
+    height: 430px;
+  }
+
+  .secondSlideContent {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-between;
+  }
+
+  .secondSlidePara {
+    width: fit-content;
+  }
+
+  .secondSlideContent p {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .secondSlideContent img {
+    bottom: 100%;
+    left: 55%;
+    position: relative;
+    width: 50%;
+    height: auto;
+  }
+  .secondSlide h1 {
+    margin: 0;
+    margin-left: 10px;
+    color: rgb(223, 0, 0);
+    margin-top: 0px;
+    font-size: 7rem;
+  }
+}
+.thirdSlide {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 430px;
+}
+
+.thirdSlideCard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  height: 430px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-image: url("images/historyten.jpg");
+}
+.thirdSlideCard1 h1 {
+  padding-left: 10px;
+  font-size: 4.5rem;
+  color: tomato;
+  margin: 0px;
+  width: 340px;
+}
+.tags {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tags ul {
+  padding: 0px;
+  width: 340px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tags li {
+  background-color: rgba(223, 0, 0, 0.436);
+  border: 1px solid rgb(64, 29, 153);
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+  color: rgb(71, 0, 250);
+  border-radius: 30px;
+}
+
+.jeu h1 {
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.jeu h4 {
+  padding-left: 15px;
+  font-weight: lighter;
+}
+
+.thirdSlideRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 590px;
+}
+
+.thirdSlideRight img {
+  border-radius: 20px;
+  width: 80%;
+  height: auto;
+  opacity: 80%;
+}
+
+.fourthSlide {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourthSlideRight {
+  height: 430px;
+  width: 50%;
+}
+
+.fourthSlideRight h1 {
+  margin: 0px;
+  font-size: 5.5rem;
+}
+.fourthSlideImg {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 430px;
+}
+
+.imgContainer {
+  background-image: url("images/slide4.jpg");
+  background-size: cover;
+  width: 420px;
+  border-radius: 15px;
+  height: 430px;
+}
+
+.fourthSlideImg img {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fourthSlideImg .cooper {
+  bottom: 5%;
+  position: relative;
+  width: 25%;
+}
+
+.fourthSlideImg .hard {
+  position: relative;
+  top: 5%;
+  right: 30%;
+  width: 40%;
+}
+
+.fourthSlideImg .thiem {
+  position: relative;
+  bottom: 15%;
+  right: 5%;
+  width: 60%;
+}
+
+.fourthSlideImg .bueno {
+  position: relative;
+  right: 25%;
+  width: 20%;
+}
+
+.fourthSlideImg .osaka {
+  position: relative;
+  bottom: 30%;
+  left: 35%;
+  width: 50%;
+}
+
+.fourthSlideImg .fed {
+  position: relative;
+  bottom: 5%;
+  right: 5%;
+  transform: scaleX(-1);
+  width: 40%;
+}
+
+.fourthSlideImg .will {
+  position: relative;
+  transform: scaleX(-1);
+  bottom: 50%;
+  left: 60%;
+  width: 50%;
+}
+
+.fifthSlide {
+  width: 932px;
+  height: 430px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.fifthSlide1-3 {
+  width: 440px;
+  height: 430px;
+}
+
+.fifthSlide1-3 h1 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 4rem;
+  color: tomato;
+}
+
+.fifth1-3img {
+  display: flex;
+  width: 460px;
+  justify-content: space-around;
+}
+.fifth1-3img img {
+  border-radius: 15px;
+  width: auto;
+  height: 250px;
+}
+
+.fifthSlide2-3 {
+  height: 430px;
+  width: 70px;
+}
+
+.fifthSlide2-3 h1 {
+  margin: 0px;
+  top: 25%;
+  position: relative;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 2rem;
+  writing-mode: vertical-rl;
+}
+
+.fifthSlide3-3 {
+  display: flex;
+}
+
+.fifthright1st {
+  margin-top: 20px;
+  height: 430px;
+  width: 220px;
+}
+
+.fifthright1st img {
+  width: 220px;
+  height: auto;
+}
+
+.divider {
+  width: 2px;
+  height: 430px;
+  background-color: black;
+}
+
+.fifthright2nd {
+  margin-top: 20px;
+  height: 430px;
+  width: 200px;
+}
+
+.fifthright2nd p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fifthright2nd img {
+  margin-left: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.slideSix {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 932px;
+  height: 430px;
+}
+
+.slide6title {
+  display: flex;
+  justify-content: center;
+}
+
+.opensContainer {
+  display: flex;
+  width: 932px;
+  height: 430px;
+  justify-content: center;
+  justify-content: space-around;
+}
+.opens {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 210px;
+  height: 400px;
+}
+
+.opens img {
+  width: 75%;
+  height: 250;
+}
+
+.opens .us {
+  margin-top: 0px;
+}
+
+.opens .aus {
+  margin-top: 0px;
+}
+
+/* Slide Seven */
+
+.slideSeven {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 932px;
+  height: 430px;
+}
+
+/* Quiz */

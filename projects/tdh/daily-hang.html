@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The-Daily-Hang</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="daily-hang.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="fluid-container">
+        <div class="row header">
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><h1 class="title">THE DAILY HANG</h1></div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row dates">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 dates">
+                <div class="date-box">0</div>
+                <div class="date-box">1</div>
+                <div class="date-box">/</div>
+                <div class="date-box">1</div>
+                <div class="date-box">0</div>
+                <div class="date-box">/</div>
+                <div class="date-box">2</div>
+                <div class="date-box">0</div>
+                <div class="date-box">0</div>
+                <div class="date-box">1</div>
+            </div>
+            <div class="col-md-3 mailing-box"> 
+                <div class="mail">Mail</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid"> 
+        <div class="row hang-man">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="bottom-bar"></div>
+                <div class="verticle-bar"></div>
+                <div class="horizontal-bar"></div>
+                <div class="across-bar"></div>
+                <div class="noose"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    <div>
+
+    <!-- Text BOXES -->
+    </div>
+<div class="fluid-container">
+    <div class="row full-height">
+        <div class="col-md-1 text-boxes"></div>
+        <div class="col-md-10 text-boxes">
+            <div id="letter-container"></div>
+            <div id="line-container"></div>
+        </div> 
+        <div class="col-md-1 text-boxes"></div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row keyboard">
+        <div class="col-md-3"></div> 
+        <div class="col-md-6">
+            <ul class="alphabet-holder">
+                <li class="key" data-key="A">A</li>
+                <li class="key">B</li>
+                <li class="key">C</li>
+                <li class="key">D</li>
+                <li class="key">E</li>
+                <li class="key">F</li>
+                <li class="key">G</li>
+                <li class="key">H</li>
+                <li class="key">I</li>
+                <li class="key">J</li>
+                <li class="key">K</li>
+                <li class="key">L</li>
+                <li class="key">M</li>
+                <li class="key">N</li>
+                <li class="key">O</li>
+                <li class="key">P</li>
+                <li class="key">Q</li>
+                <li class="key">R</li>
+                <li class="key">S</li>
+                <li class="key">T</li>
+                <li class="key">U</li>
+                <li class="key">V</li>
+                <li class="key">W</li>
+                <li class="key">X</li>
+                <li id="Backspace" class="key">Backspace</li>
+                <li class="key">Y</li>
+                <li class="key">Z</li>
+                <li id="Enter" class="key">Enter</li>                
+            </ul>              
+        </div>
+        <div class="col-md-3"></div> 
+    </div>
+    <div id="game-over-modal" class="lost-modal">
+        <div class="modal-content">
+          <h2>Game Over</h2>
+          <p>You have run out of lives. Would you like to try again?</p>
+          <button id="retry-button">Retry</button>
+        </div>
+    </div>
+    <div id="win-modal" class="win-modal">
+        <div class="win-modal-content">
+          <h2>Magnificent</h2>
+        </div>
+    </div>
+    <div class="hang-man-body-parts">
+        <div id="hang-man-head"></div>
+        <div id="hang-man-left-arm"></div>
+        <div id="hang-man-right-arm"></div>
+        <div id="hang-man-body-upper"></div>
+        <div id="hang-man-left-leg"></div>
+        <div id="hang-man-right-leg"></div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

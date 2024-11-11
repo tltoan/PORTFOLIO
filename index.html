@@ -1,77 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-7 homepage-left">
-                <div class="page-title">
-                    <h3>ANTONY's STUDIO
-                        <ul class="links">
-                            <li><a href="https://www.linkedin.com/in/antony-tran-723bbb267/"><img src="/images/linkedin.png" alt="LinkedIn Icon"></a></li>
-                            <li><a href="https://www.instagram.com/a.einz/"><img src="/images/instagram.png" alt="Instagram Icon"></a></li>
-                            <div class="resume">
-                                <!-- Text that will trigger the modal -->
-                                <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#resumeModal">Resume</a>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
-                              <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="resumeModalLabel">ANTONY TRAN</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <!-- Image of resume -->
-                                    <iframe src="/images/Updated Resume (2024).pdf" width="100%" height="500px"></iframe>
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="resume-btn" data-bs-dismiss="modal">Close</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                        </ul>
-                    </h3>
-                    <h1>2024</h1>
+      <div class="row">
+        <div class="col-md-7 homepage-left">
+          <div class="page-title">
+            <h3>ANTONY's STUDIO</h3>
+            <h1>2024</h1>
+            <div class="nav-items">
+              <ul class="links">
+                <li>
+                  <a href="https://www.linkedin.com/in/antony-tran-723bbb267/"
+                    ><img src="/images/linkedin.png" alt="LinkedIn Icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/a.einz/"
+                    ><img src="/images/instagram.png" alt="Instagram Icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="mailto:tltoan@ad.unc.edu"
+                    ><img src="images/mail.png" alt="Email Icon"
+                  /></a>
+                </li>
+              </ul>
+              <div class="resume">
+                <!-- Text that will trigger the modal -->
+                <a
+                  href="#"
+                  class="text-decoration-none"
+                  data-bs-toggle="modal"
+                  data-bs-target="#resumeModal"
+                  >R&eacute;sum&eacute;</a
+                >
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="resumeModal"
+                tabindex="-1"
+                aria-labelledby="resumeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="resumeModalLabel">
+                        ANTONY TRAN
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- Image of resume -->
+                      <iframe
+                        src="/images/updates-res.pdf"
+                        width="100%"
+                        height="500px"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="resume-btn"
+                        data-bs-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div class="navs">
-                    <ul>
-                        <li class="selections"><a href="/projects/project.html">PROJECTS</a></li>
-                        <li class="selections"><a href="/directions">DIRECTIONS</a></li>
-                        <li class="selections"><a href="">CONTACT</a></li>
-                        <li class="selections"><a href="/about_me/aboutme.html">ABOUT-ME</a></li>
-                        <li class="selections"><a href="/tattoos/tattoo.html">TATTOO-BOOKINGS</a></li>
-                    </ul>
-                </div>
-                <div class="left-image-container">
-                    <img class="saigon" src="/images/home-page-saigon.jpg">
-                    <img class="star" src="/images/home-page-star.png">
-                </div>
+              </div>
             </div>
-            <div class="col-md-5 homepage-right">
-                <div class="right-image-container">
-                    <img src="/images/home-page-stamp.jpg">
-                </div>
-                <div class="introductions">
-                    <h3>HI, MY NAME IS ANTONY.</h3>
-                    <h4>CREATIVE DEVELOPER</h4>
-                    <p>I AM CURRENTLY A STUDENT AT CHAPEL_HILL NORTH CAROLINA. I HAVE A PASSION FOR DESIGN, WEB_DEVELOPMENT, AND TATTOING</p>
-                    <img class="signature" src="/images/home-page-sig.png">
-                </div>
-            </div>
+          </div>
+          <div class="navs">
+            <ul>
+              <li class="selections">
+                <a href="/projects/project.html">PROJECTS</a>
+              </li>
+              <li class="selections">
+                <a href="/tattoos/tattoo.html">TATTOOS</a>
+              </li>
+              <li class="selections">
+                <a href="/about_me/aboutme.html">ABOUT-ME</a>
+              </li>
+            </ul>
+          </div>
+          <div class="left-image-container">
+            <img class="saigon" src="/images/saigon.jpg" />
+            <img class="star" src="/images/home-page-star.png" />
+          </div>
         </div>
+        <div class="col-md-5 homepage-right">
+          <div class="right-image-container">
+            <img src="/images/home-page-stamp.jpg" />
+          </div>
+          <div class="introductions">
+            <h3>HI, MY NAME IS ANTONY.</h3>
+            <h4>CREATIVE DEVELOPER</h4>
+            <p>
+              I AM CURRENTLY A STUDENT AT CHAPEL_HILL NORTH CAROLINA. I HAVE A
+              PASSION FOR DESIGN, WEB_DEVELOPMENT, AND TATTOING
+            </p>
+            <img class="signature" src="/images/home-page-sig.png" />
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

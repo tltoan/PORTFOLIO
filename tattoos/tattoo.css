@@ -1,60 +1,188 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 30px;
 }
 
 .options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 100vh;
 }
 
 .options a {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: 200px;
-    height: 30px;
-    background-color: gray;
-    transition: ease-in-out 0.3s;
-    font-size: large;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 200px;
+  height: 30px;
+  background-color: gray;
+  transition: ease-in-out 0.3s;
+  font-size: large;
 }
 
 .options a:hover {
-    background-color: black;
-    color: rgb(255, 0, 0);   
-    text-decoration: line-through;
+  background-color: white;
+  border: 1px solid black;
+  color: rgb(164, 159, 159);
+  text-decoration: line-through;
 }
 
 .portfolio-title h1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .showcase00 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .tattoo-00 img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .tattoo-01 img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
 .tattoo02 img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 
 .tats {
-    padding: 0;
+  padding: 0;
+}
+
+/* MASONRY */
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h4 {
+  text-align: center;
+  line-height: 80px;
+  font-weight: normal;
+}
+
+.portfolio {
+}
+
+.masonry {
+  /* Masonry container */
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  margin: 1em;
+  padding: 0;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
+  font-size: 0.85em;
+}
+.item {
+  display: inline-block;
+  background: #fff;
+  margin: 0 0 0.5em;
+  border-radius: 5%;
+  width: 100%;
+  transition: ease-in-out 0.3s;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.item img {
+  border-radius: 5%;
+}
+
+.item:hover {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.05);
+  transform: scale(1.1);
+}
+
+.item img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 320px) {
+  .masonry {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .masonry {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .masonry {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .masonry {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .options {
+    position: absolute;
+    bottom: 60vh;
+  }
+  .tattoo-portfolio {
+    position: relative;
+    bottom: 60vh;
+  }
+  body {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .angel {
+    position: relative;
+    top: 12%;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

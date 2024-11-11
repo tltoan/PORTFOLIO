@@ -1,0 +1,968 @@
+{
+  "data": [
+    {
+      "year": 2004,
+      "eggaverage": 1.145
+    },
+    {
+      "year": 2004,
+      "eggaverage": 1.089
+    },
+    {
+      "year": 2004,
+      "eggaverage": 1.085
+    },
+    {
+      "year": 2004,
+      "eggaverage": 1.199
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.211
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.284
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.132
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.164
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.185
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.139
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.165
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.166
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.279
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.264
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.279
+    },
+    {
+      "year": 2005,
+      "eggaverage": 1.35
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.449
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.328
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.302
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.283
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.206
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.242
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.213
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.244
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.254
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.257
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.354
+    },
+    {
+      "year": 2006,
+      "eggaverage": 1.543
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.549
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.746
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.634
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.616
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.504
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.373
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.502
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.634
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.825
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.771
+    },
+    {
+      "year": 2007,
+      "eggaverage": 1.862
+    },
+    {
+      "year": 2007,
+      "eggaverage": 2.099
+    },
+    {
+      "year": 2008,
+      "eggaverage": 2.175
+    },
+    {
+      "year": 2008,
+      "eggaverage": 2.168
+    },
+    {
+      "year": 2008,
+      "eggaverage": 2.203
+    },
+    {
+      "year": 2008,
+      "eggaverage": 2.069
+    },
+    {
+      "year": 2008,
+      "eggaverage": 1.93
+    },
+    {
+      "year": 2008,
+      "eggaverage": 1.92
+    },
+    {
+      "year": 2008,
+      "eggaverage": 2.011
+    },
+    {
+      "year": 2008,
+      "eggaverage": 1.854
+    },
+    {
+      "year": 2008,
+      "eggaverage": 1.978
+    },
+    {
+      "year": 2008,
+      "eggaverage": 1.858
+    },
+    {
+      "year": 2008,
+      "eggaverage": 1.838
+    },
+    {
+      "year": 2008,
+      "eggaverage": 1.834
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.85
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.795
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.693
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.774
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.501
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.529
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.495
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.632
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.627
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.595
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.705
+    },
+    {
+      "year": 2009,
+      "eggaverage": 1.772
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.789
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.872
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.822
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.779
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.523
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.494
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.441
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.519
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.753
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.456
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.675
+    },
+    {
+      "year": 2010,
+      "eggaverage": 1.793
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.806
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.708
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.732
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.727
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.692
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.683
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.647
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.711
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.947
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.871
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.836
+    },
+    {
+      "year": 2011,
+      "eggaverage": 1.874
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.939
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.798
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.774
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.829
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.691
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.67
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.648
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.884
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.889
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.96
+    },
+    {
+      "year": 2012,
+      "eggaverage": 1.963
+    },
+    {
+      "year": 2012,
+      "eggaverage": 2.007
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.933
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.965
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.925
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.918
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.87
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.859
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.833
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.838
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.897
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.925
+    },
+    {
+      "year": 2013,
+      "eggaverage": 1.925
+    },
+    {
+      "year": 2013,
+      "eggaverage": 2.026
+    },
+    {
+      "year": 2014,
+      "eggaverage": 2.008
+    },
+    {
+      "year": 2014,
+      "eggaverage": 1.998
+    },
+    {
+      "year": 2014,
+      "eggaverage": 2.061
+    },
+    {
+      "year": 2014,
+      "eggaverage": 2.119
+    },
+    {
+      "year": 2014,
+      "eggaverage": 1.996
+    },
+    {
+      "year": 2014,
+      "eggaverage": 1.948
+    },
+    {
+      "year": 2014,
+      "eggaverage": 1.95
+    },
+    {
+      "year": 2014,
+      "eggaverage": 1.979
+    },
+    {
+      "year": 2014,
+      "eggaverage": 1.97
+    },
+    {
+      "year": 2014,
+      "eggaverage": 1.951
+    },
+    {
+      "year": 2014,
+      "eggaverage": 2.032
+    },
+    {
+      "year": 2014,
+      "eggaverage": 2.21
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.113
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.088
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.133
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.065
+    },
+    {
+      "year": 2015,
+      "eggaverage": 1.962
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.57
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.57
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.943
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.966
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.808
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.664
+    },
+    {
+      "year": 2015,
+      "eggaverage": 2.751
+    },
+    {
+      "year": 2016,
+      "eggaverage": 2.328
+    },
+    {
+      "year": 2016,
+      "eggaverage": 2.267
+    },
+    {
+      "year": 2016,
+      "eggaverage": 2.081
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.793
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.684
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.491
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.546
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.455
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.471
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.39
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.321
+    },
+    {
+      "year": 2016,
+      "eggaverage": 1.383
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.599
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.464
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.404
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.409
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.414
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.332
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.333
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.367
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.422
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.54
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.506
+    },
+    {
+      "year": 2017,
+      "eggaverage": 1.815
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.769
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.755
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.831
+    },
+    {
+      "year": 2018,
+      "eggaverage": 2.081
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.987
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.628
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.725
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.622
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.651
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.66
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.596
+    },
+    {
+      "year": 2018,
+      "eggaverage": 1.595
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.554
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.557
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.544
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.463
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.362
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.203
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.243
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.219
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.383
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.282
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.405
+    },
+    {
+      "year": 2019,
+      "eggaverage": 1.535
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.461
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.449
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.525
+    },
+    {
+      "year": 2020,
+      "eggaverage": 2.019
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.64
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.554
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.401
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.328
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.353
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.408
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.45
+    },
+    {
+      "year": 2020,
+      "eggaverage": 1.481
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.466
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.597
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.625
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.62
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.625
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.642
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.642
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.709
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.835
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.821
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.718
+    },
+    {
+      "year": 2021,
+      "eggaverage": 1.788
+    },
+    {
+      "year": 2022,
+      "eggaverage": 1.929
+    },
+    {
+      "year": 2022,
+      "eggaverage": 2.005
+    },
+    {
+      "year": 2022,
+      "eggaverage": 2.046
+    },
+    {
+      "year": 2022,
+      "eggaverage": 2.52
+    },
+    {
+      "year": 2022,
+      "eggaverage": 2.863
+    },
+    {
+      "year": 2022,
+      "eggaverage": 2.707
+    },
+    {
+      "year": 2022,
+      "eggaverage": 2.936
+    },
+    {
+      "year": 2022,
+      "eggaverage": 3.116
+    },
+    {
+      "year": 2022,
+      "eggaverage": 2.902
+    },
+    {
+      "year": 2022,
+      "eggaverage": 3.419
+    },
+    {
+      "year": 2022,
+      "eggaverage": 3.589
+    },
+    {
+      "year": 2022,
+      "eggaverage": 4.25
+    },
+    {
+      "year": 2023,
+      "eggaverage": 4.823
+    },
+    {
+      "year": 2023,
+      "eggaverage": 4.211
+    },
+    {
+      "year": 2023,
+      "eggaverage": 3.446
+    },
+    {
+      "year": 2023,
+      "eggaverage": 3.27
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.666
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.219
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.094
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.043
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.065
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.072
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.138
+    },
+    {
+      "year": 2023,
+      "eggaverage": 2.507
+    },
+    {
+      "year": 2024,
+      "eggaverage": 2.522
+    },
+    {
+      "year": 2024,
+      "eggaverage": 2.996
+    },
+    {
+      "year": 2024,
+      "eggaverage": 2.992
+    },
+    {
+      "year": 2024,
+      "eggaverage": 2.864
+    },
+    {
+      "year": 2024,
+      "eggaverage": 2.699
+    },
+    {
+      "year": 2024,
+      "eggaverage": 2.715
+    },
+    {
+      "year": 2024,
+      "eggaverage": 3.08
+    },
+    {
+      "year": 2024,
+      "eggaverage": 3.204
+    },
+    {
+      "year": 2024,
+      "eggaverage": 3.821
+    }
+  ]
+}

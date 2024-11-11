@@ -97,6 +97,10 @@ body {
     transform: scale(1.5);
 }
 
+.current p{
+    padding-right: 5%;
+}
+
 .footer {
     height: 100px;
     display: flex;
@@ -112,3 +116,16 @@ body {
         transform: rotate(360deg);
     }
 }
+/* Media Query */
+@media (max-width: 430px) {
+    .container {
+        overflow-x: hidden;
+    }
+    .title h1 {
+        font-size: 4.7rem;
+    }
+    .interest {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+ }
